@@ -27,13 +27,13 @@ public class Question1 {
 			double salary = scan.nextDouble();
 		
 			if (year>5) {
-			double bonus = salary*5;
+			double bonus = salary*0.05;
 			System.out.println("Bouns : " + bonus);
 			}
 			else
 				System.out.println("no bouns");
-			double highestsalary = salary *105;
-			double lowestsalary = salary *100;
+			double highestsalary = salary *1.05;
+			double lowestsalary = salary *1.00;
 			System.out.println("Highest salary : " + highestsalary);
 			System.out.println("Lowest salary : " + lowestsalary);
 	}
