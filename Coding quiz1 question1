@@ -16,10 +16,7 @@ public class Question1 {
 		 Scanner scan = new Scanner (System.in);
 
 	
-			int index;
-			
-			int index2;
-			
+			int age=0;
 			System.out.println("Please input year of service."); 
 			double year = scan.nextDouble();
 			
@@ -36,6 +33,29 @@ public class Question1 {
 			double lowestsalary = salary *1.00;
 			System.out.println("Highest salary : " + highestsalary);
 			System.out.println("Lowest salary : " + lowestsalary);
+			
+			int [] age1 = new int[4];
+			for(int i=0;i<3;i++){
+			 System.out.println("Please input your age.");
+			 age1[i] = scan.nextInt();
+			}
+			
+			for(int i=0;i<3;i++){
+			int maxage =0;
+			if (age1[maxage] < age1[i]) { 
+				maxage= i;
+				
+			    	System.out.println("Oldest : " + age1[maxage]);
+			}
+			}
+			for(int i=0;i<3;i++){
+			int minage =0;
+		    if (age1[minage]  > age1[i]) {
+			        minage = i;
+			 System.out.println("Youngest : " + age1[minage]);
+			}
+			
+			}
 	}
 
 }
