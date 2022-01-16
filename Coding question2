@@ -1,0 +1,36 @@
+package QUIZ2;
+
+import java.util.Scanner;
+
+public class Question2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Scanner scan = new Scanner (System.in);
+		
+	 
+		 System.out.print("Please input the number of items.");
+		 int item = scan.nextInt();
+			
+		 int value[] = new int[item];
+			
+		 System.out.println("Please input value of item.");
+		 for (int index2 = 0; index2 < value.length;index2++) {  
+			 value[index2] = scan.nextInt();
+			}
+			
+		 for (int index2 = 0; index2 < item;index2++) {
+			 System.out.print("Value " + (index2+1) + ": ");
+			 for (int i = 0; i <value[index2];index2++) {
+				 System.out.print("*");
+				}
+			 System.out.print(value[index2]);
+			
+			}
+		 
+		 
+		 
+	}
+
+	
+	}
