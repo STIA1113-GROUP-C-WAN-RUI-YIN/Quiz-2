@@ -1,0 +1,41 @@
+package QUIZ2;
+
+import java.util.Scanner;
+
+
+public class Question1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*		1.    A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. 
+		a.    Ask user for their salary and year of service and print the net bonus amount.
+		b.    Take monthly salary from one employee and print the highest and the lowest salary.
+		c.    Take input of age of 3 employees and determine oldest and youngest among them.
+*/
+		
+		 Scanner scan = new Scanner (System.in);
+
+	
+			int index;
+			
+			int index2;
+			
+			System.out.println("Please input year of service."); 
+			double year = scan.nextDouble();
+			
+            System.out.println("Please input your salary.");
+			double salary = scan.nextDouble();
+		
+			if (year>5) {
+			double bonus = salary*5;
+			System.out.println("Bouns : " + bonus);
+			}
+			else
+				System.out.println("no bouns");
+			double highestsalary = salary *105;
+			double lowestsalary = salary *100;
+			System.out.println("Highest salary : " + highestsalary);
+			System.out.println("Lowest salary : " + lowestsalary);
+	}
+
+}
