@@ -1,7 +1,16 @@
 Please input year of service.
 6
 Please input your salary.
-300
-Bouns : 15.0
-Highest salary : 315.0
-Lowest salary : 300.0
+100
+Bouns : 5.0
+Highest salary : 105.0
+Lowest salary : 100.0
+Please input your age.
+2
+Please input your age.
+3
+Please input your age.
+1
+Oldest : 3
+Youngest : 1
+
